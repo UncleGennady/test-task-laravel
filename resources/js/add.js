@@ -1,30 +1,3 @@
-// "use strict";
-
-// const button = document.querySelector("#add");
-// const container = document.querySelector("#numbers");
-
-// const createChildren = () => {
-//     const childElement = document.createElement("div");
-//     childElement.className = "mb-2";
-//     childElement.innerHTML = `
-//         <label for="number" class="form-label"></label>
-//         <input type="text" name='number' class="form-control" id="number" placeholder="(726) 450-8938">
-//         <button type="button">Remove</button>
-//     `;
-//     const removeButton = childElement.querySelector("button");
-//     removeButton.onclick = ()=>{
-//         childElement.remove();
-//     }
-
-//     return childElement;
-// };
-
-// const addEvent = () => {
-//     container.appendChild(createChildren());
-// };
-
-// button.onclick = addEvent;
-
 "use strict";
 
 const button = document.querySelector("#add");
